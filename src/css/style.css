@@ -246,6 +246,17 @@
   font-weight: 500;
 }
 
+.consultation .error {
+  border: 1px solid red;
+}
+
+.consultation label.error {
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .feed-form {
   margin-top: 36px;
   display: -webkit-box;
@@ -725,7 +736,30 @@
   min-height: 140px;
 }
 
+.modal .error {
+  border: 1px solid red;
+}
+
+.modal label.error {
+  border: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 #consultation, #order, #thanks {
   display: none;
+}
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.pageup img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
